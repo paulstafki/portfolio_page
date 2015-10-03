@@ -8,10 +8,10 @@ myApp.config(['$routeProvider', function($routeProvider){
             templateUrl: "/assets/views/routes/home.html",
             controller: "SomeController"
         }).
-        //when('/activities', {
-        //    templateUrl: "/assets/views/routes/activities.html",
-        //    controller: "SomeController"
-        //}).
+        when('/racing', {
+            templateUrl: "/assets/views/routes/racing.html",
+            controller: "SomeController"
+        }).
         //when('/professional', {
         //    templateUrl: "/assets/views/routes/professional.html",
         //    controller: "AnotherController"
