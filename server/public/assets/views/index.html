@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="UTF-8">
+    <title>PR Stafki</title>
+    <link rel="stylesheet" href="/vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<header>
+    <div class="jumbotron">
+        <h1>P.R. STAFKI</h1>
+    </div>
+</header>
+<div class="well">
+    <ul>
+        <li><a href="#home">Home</a></li>
+    </ul>
+</div>
+<div class="mainview"  style="overflow-y: scroll;">
+    <main ng-view></main>
+</div>
+<footer>
+</footer>
+
+<script type="text/javascript" src="/vendors/angular/angular.min.js"></script>
+<script type="text/javascript" src="/vendors/angular-route/angular-route.min.js"></script>
+<script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+<script type="text/javascript" src="/assets/scripts/controllers/controller.min.js"></script>
+</body>
+</html>
