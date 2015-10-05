@@ -17,6 +17,14 @@ body {
     box-shadow: 0px 0px 10px 10px rgba(10,10,10,1);
 }
 
+.nameDiv {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(10,10,10,1);
+    -moz-box-shadow: 0px 0px 10px 10px rgba(10,10,10,1);
+    box-shadow: 0px 0px 10px 10px rgba(10,10,10,1);
+}
+
 .contentDiv {
     text-align: center;
 }
@@ -34,10 +42,19 @@ li {
     list-style-type: none;
     display: inline-block;
     padding-left: 20px;
+    text-shadow: 2px 2px #000000;
 }
 
-li:hover {
+a:hover {
     color: #f2e1ac;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 0px 3px 3px rgba(10,10,10,1);
+    -moz-box-shadow: 0px 0px 3px 3px rgba(10,10,10,1);
+    box-shadow: 0px 0px 3px 3px rgba(10,10,10,1);
+}
+
+a:target {
+    color: #f2e1ac !important;
 }
 
 h1 {
