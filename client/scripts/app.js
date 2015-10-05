@@ -12,14 +12,14 @@ myApp.config(['$routeProvider', function($routeProvider){
             templateUrl: "/assets/views/routes/racing.html",
             controller: "SomeController"
         }).
-        //when('/professional', {
-        //    templateUrl: "/assets/views/routes/professional.html",
-        //    controller: "AnotherController"
-        //}).
-        //when('/friendlies', {
-        //    templateUrl: "/assets/views/routes/friendlies.html",
-        //    controller: "AnotherController"
-        //}).
+        when('/gamma', {
+            templateUrl: "/assets/views/routes/gamma.html",
+            controller: "AnotherController"
+        }).
+        when('/dossier', {
+            templateUrl: "/assets/views/routes/dossier.html",
+            controller: "AnotherController"
+        }).
         otherwise({
             redirectTo: "/home"
         })
