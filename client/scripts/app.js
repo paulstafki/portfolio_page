@@ -1,4 +1,4 @@
-var myApp = angular.module('myApp', ['ngRoute', 'appControllers']);
+var myApp = angular.module('myApp', ['ngRoute', 'appControllers', 'angular-carousel']);
 
 var appControllers = angular.module('appControllers', []);
 
