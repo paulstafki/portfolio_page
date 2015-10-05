@@ -60,10 +60,12 @@ a:target {
 h1 {
     padding-left: 30px;
     text-shadow: 2px 2px #000000;
+    font-family: 'Special Elite', cursive;
 }
 
 h2 {
     padding-top: 15px;
+    font-family: 'Special Elite', cursive;
 }
 
 .footieDiv {
