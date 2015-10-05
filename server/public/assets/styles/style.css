@@ -65,3 +65,12 @@ h1 {
 h2 {
     padding-top: 15px;
 }
+
+.footieDiv {
+    padding: 15px 5px 0 0;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 0px 3px 3px rgba(10,10,10,1);
+    -moz-box-shadow: 0px 0px 3px 3px rgba(10,10,10,1);
+    box-shadow: 0px 0px 3px 3px rgba(10,10,10,1);
+    display: inline-block;
+}
