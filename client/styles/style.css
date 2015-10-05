@@ -17,13 +17,13 @@ body {
     box-shadow: 0px 0px 10px 10px rgba(10,10,10,1);
 }
 
-.nameDiv {
-    display: inline-block;
-    background: rgba(0, 0, 0, 0.8);
-    -webkit-box-shadow: 0px 0px 10px 10px rgba(10,10,10,1);
-    -moz-box-shadow: 0px 0px 10px 10px rgba(10,10,10,1);
-    box-shadow: 0px 0px 10px 10px rgba(10,10,10,1);
-}
+/*.nameDiv {*/
+    /*display: inline-block;*/
+    /*background: rgba(0, 0, 0, 0.8);*/
+    /*-webkit-box-shadow: 0px 0px 10px 10px rgba(10,10,10,1);*/
+    /*-moz-box-shadow: 0px 0px 10px 10px rgba(10,10,10,1);*/
+    /*box-shadow: 0px 0px 10px 10px rgba(10,10,10,1);*/
+/*}*/
 
 .contentDiv {
     text-align: center;
