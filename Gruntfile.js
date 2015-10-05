@@ -47,24 +47,6 @@ module.exports = function(grunt){
                 ],
                 "dest": "server/public/vendors/"
             },
-            angularCarousel: {
-                expand: true,
-                cwd: 'node_modules',
-                src: [
-                    "angular-carousel/angular-carousel.min.js",
-                    "angular-carousel/angular-carousel.css"
-                ],
-                "dest": "server/public/vendors/"
-            },
-            angularTouch: {
-                expand: true,
-                cwd: 'node_modules',
-                src: [
-                    "angular-touch/angular-touch.min.js",
-                    "angular-touch/angular-touch.min.js.map"
-                ],
-                "dest": "server/public/vendors/"
-            },
             html: {
                 expand: true,
                 cwd: 'client',
