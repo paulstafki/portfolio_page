@@ -69,10 +69,22 @@ h2 {
 }
 
 .footieDiv {
-    padding: 15px 5px 0 0;
-    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 5px 0 0;
+    background: rgba(0, 0, 0, 0.7);
     -webkit-box-shadow: 0px 0px 3px 3px rgba(10,10,10,1);
     -moz-box-shadow: 0px 0px 3px 3px rgba(10,10,10,1);
     box-shadow: 0px 0px 3px 3px rgba(10,10,10,1);
     display: inline-block;
+}
+
+.moduleDiv {
+    margin-top: 5px;
+}
+
+.techList li {
+    padding: 0 20px 0 0;
+}
+
+.techList {
+    padding: 0 0 0 0;
 }
