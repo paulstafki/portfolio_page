@@ -20,6 +20,10 @@ myApp.config(['$routeProvider', function($routeProvider){
             templateUrl: "/assets/views/routes/dossier.html",
             controller: "AnotherController"
         }).
+        when('/vent', {
+            templateUrl: "/assets/views/routes/vent.html",
+            controller: "AnotherController"
+        }).
         when('/hobbies', {
             templateUrl: "/assets/views/routes/hobbies.html",
             controller: "AnotherController"

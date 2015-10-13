@@ -61,7 +61,8 @@ module.exports = function(grunt){
                     "views/routes/racing.html",
                     "views/routes/gamma.html",
                     "views/routes/dossier.html",
-                    "views/routes/hobbies.html"
+                    "views/routes/hobbies.html",
+                    "views/routes/vent.html"
                 ],
                 "dest": "server/public/assets/"
             }
