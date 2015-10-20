@@ -88,3 +88,45 @@ h2 {
 .techList {
     padding: 0 0 0 0;
 }
+
+.slide-container {
+    position:relative;
+}
+
+.slide.ng-enter, .slide.ng-leave {
+    -webkit-transition:0.5s linear all;
+    -moz-transition:0.5s linear all;
+    -o-transition: 0.5s linear all;
+    -ms-transition: 0.5s linear all;
+    transition:0.5s linear all;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:600px;
+}
+
+.slide.ng-enter-stagger{
+    transition-delay:1s;
+    -webkit-transition-delay:1s;
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+}
+
+.slide.ng-enter {
+    z-index:100;
+    top:600px;
+    opacity:0;
+}
+
+.slide.ng-enter.ng-enter-active {
+    top:0;
+    opacity:1;
+}
+
+.slide.ng-leave {
+    z-index: 101;
+    top: 0;
+    opacity: 1;
+}

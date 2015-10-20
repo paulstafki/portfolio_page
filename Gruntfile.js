@@ -47,6 +47,15 @@ module.exports = function(grunt){
                 ],
                 "dest": "server/public/vendors/"
             },
+            angularAnimate: {
+                expand: true,
+                cwd: 'node_modules',
+                src: [
+                    "angular-animate/angular-animate.min.js",
+                    "angular-animate/angular-animate.min.js.map"
+                ],
+                "dest": "server/public/vendors/"
+            },
             html: {
                 expand: true,
                 cwd: 'client',
